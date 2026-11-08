@@ -1,0 +1,75 @@
+{
+  "title": "门口的小番茄",
+  "aspect_ratio": "3:4",
+  "style": "ligne-claire",
+  "page_mode": "scene-dialogue",
+  "expected_page_count": 1,
+  "adaptation_note": "本示例的人物、场景和对白均为虚构。",
+  "characters": [
+    {
+      "id": "visitor",
+      "name": "访客",
+      "identity": "棕色短卷发、橙色外套，手提帆布袋"
+    },
+    {
+      "id": "gardener",
+      "name": "园丁",
+      "identity": "灰色短发、蓝围裙，手持小喷壶"
+    }
+  ],
+  "pages": [
+    {
+      "id": 1,
+      "title": "门口的小番茄",
+      "purpose": "访客发现自取的小番茄，园丁提醒也给后来的人留一些",
+      "page_mode": "scene-dialogue",
+      "image": "pages/01.png",
+      "panels": [
+        {
+          "panel_id": "P01-A",
+          "layout": "单场景整页，访客在左、园丁在右，中间是小木箱；气泡上方留白",
+          "scene": "社区花园入口，木箱里装着小番茄",
+          "camera": "平视中景",
+          "characters": [
+            "visitor",
+            "gardener"
+          ],
+          "action": "访客松开攥紧的袋口，只拿起两颗番茄；园丁停下浇水，指向木箱"
+        }
+      ],
+      "bubbles": [
+        {
+          "id": "B1",
+          "panel_id": "P01-A",
+          "speaker": "visitor",
+          "order": 1,
+          "text": "这些小番茄可以拿吗？",
+          "kind": "speech",
+          "placement": "左上",
+          "tail_target": "访客嘴边"
+        },
+        {
+          "id": "B2",
+          "panel_id": "P01-A",
+          "speaker": "gardener",
+          "order": 2,
+          "text": "可以，给后面的人也留点。",
+          "kind": "speech",
+          "placement": "右上",
+          "tail_target": "园丁嘴边"
+        },
+        {
+          "id": "B3",
+          "panel_id": "P01-A",
+          "speaker": "visitor",
+          "order": 3,
+          "text": "好，我拿两颗尝尝。",
+          "kind": "speech",
+          "placement": "左侧中部，低于前两个气泡",
+          "tail_target": "访客嘴边"
+        }
+      ],
+      "captions": []
+    }
+  ]
+}
